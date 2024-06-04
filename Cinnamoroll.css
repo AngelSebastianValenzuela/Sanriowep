@@ -1,0 +1,30 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #83DBF0; /* Red background */
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.character-image {
+  max-width: 300px; /* Adjust image size as needed */
+
+
+}
+
+.text-content {
+  text-align: left;
+}
+
+.title {
+  color: #000; /* Black text color */
+  font-size: 3em;
+  font-family: 'Pacifico', cursive; /* Choose a nice font */
+  margin-bottom: 20px;
+}
+

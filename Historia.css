@@ -1,0 +1,80 @@
+body {
+  font-family: 'Pacifico', cursive;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+}
+
+#logo {
+  width: 100px;
+  margin-right: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: lightpink;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  font-family: 'Pacifico', cursive;
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #ff69b4;
+}
+
+
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  /* Remove default margins */
+}
+
+.center-image {
+  display: block;
+  margin: 20px auto;
+  /* Center the image */
+  max-width: 500px;
+  /* Adjust as needed */
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.icon-container img {
+  width: 80px;
+  /* Adjust icon size */
+  margin: 80px;
+  /* Space between icons */
+}

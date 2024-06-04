@@ -1,0 +1,43 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #E8002F; /* Red background */
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.character-image {
+  max-width: 300px; /* Adjust image size as needed */
+
+
+}
+
+.text-content {
+  text-align: left;
+}
+
+.title {
+  color: #000; /* Black text color */
+  font-size: 3em;
+  font-family: 'Pacifico', cursive; /* Choose a nice font */
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: left;
+  margin-top: 30px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 30px; /* Adjust icon size as needed */
+}

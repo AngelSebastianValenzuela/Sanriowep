@@ -1,0 +1,115 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+  /* Light gray background */
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+}
+
+#logo {
+  width: 100px;
+  margin-right: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: lightpink;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  font-family: 'Pacifico', cursive;
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #ff69b4;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 80px;
+  /* Space for the fixed header */
+}
+
+.product {
+  width: 250px;
+  margin: 10px;
+  border-radius: 10px;
+  /* Rounded corners */
+  overflow: hidden;
+  /* Hide content that overflows */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  max-width: 100%;
+  height: 200px;
+  /* Set a fixed height for images */
+  object-fit: cover;
+  /* Maintain aspect ratio and cover the entire area */
+}
+
+.product-info {
+  padding: 15px;
+  background-color: #fff;
+  /* White background for info */
+}
+
+.product-info h3 {
+  margin-top: 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #007bff;
+  /* Blue price color */
+  margin-bottom: 10px;
+}
+
+.offer {
+  color: #007bff;
+  /* Blue offer color */
+  margin-bottom: 10px;
+}
+
+.add-to-cart {
+  background-color: #007bff;
+  /* Blue button color */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  /* Smooth transition for hover effect */
+}
+
+.add-to-cart:hover {
+  background-color: #0056b3;
+  /* Darker blue on hover */
+}

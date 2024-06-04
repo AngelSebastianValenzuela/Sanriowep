@@ -1,0 +1,92 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+}
+
+#logo {
+  width: 100px;
+  margin-right: 20px; 
+}
+
+nav {
+  display: flex; 
+  justify-content: center; 
+  background-color: lightpink;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  font-family: 'Pacifico', cursive; 
+  text-decoration: none;
+  color: #000; 
+  transition: color 0.3s ease-in-out; 
+}
+
+nav ul li a:hover {
+  color: #ff69b4; 
+}
+
+.banner {
+  background-color: #eee;
+  padding: 10px ;
+  text-align: center;
+  margin-top: 10px;
+}
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+#contenido {
+  background: #fff;
+  float: right;
+  padding: 15px;
+}
+
+#contenido h2 {
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  margin-bottom: 30px;
+}
+#contenido p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: 'Pacifico', cursive; 
+  text-align: justify;
+}
+.img-izq {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid;
+}
+
+#iconos ul li img {
+  width: 30px; 
+  height: 30px; 
+}
